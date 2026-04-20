@@ -24,7 +24,7 @@ class StudentsGrades:
         elif points < 60 and points > 49:
             znamka = "E"
         elif points < 50:
-            znamka = "f"
+            znamka = "F"
 
         return znamka
 
