@@ -13,7 +13,7 @@ class StudentsGrades:
 
     def get_grade(self, index):
         points = self.get_by_index(index)
-        if points > 90:
+        if points >= 90:
             znamka = "A"
         elif points < 90 and points > 79:
             znamka = "B"
