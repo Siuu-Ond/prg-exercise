@@ -40,7 +40,10 @@ def bubble_sort(rada_numbers_original):
 
 
 
-randomm = random_numbers(200)
-# selection_sort(randomm)
+randomm = random_numbers(10)
+selection_sort(randomm)
 bubble_sort(randomm)
+
+
+
 
